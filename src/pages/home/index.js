@@ -50,7 +50,7 @@ const Home = ({ edus, jobs, addJob, addEdu }) => {
             <span className="icon">
               <Plus width="20px" height="20px" />
             </span>
-            <span className="text">Thêm học vấn mơi</span>
+            <span className="text">Thêm học vấn mới</span>
           </button>
         </div>
         <h2 className="profile__title">Công việc</h2>
@@ -63,7 +63,7 @@ const Home = ({ edus, jobs, addJob, addEdu }) => {
             <span className="icon">
               <Plus width="20px" height="20px" />
             </span>
-            <span className="text">Thêm công việc mơi</span>
+            <span className="text">Thêm công việc mới</span>
           </button>
         </div>
 
