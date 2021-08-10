@@ -1,0 +1,90 @@
+@import 'styles/variables.scss';
+
+.job {
+	&__item {
+		margin-bottom: 15px;
+	}
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&.hide {
+			display: none;
+		}
+	}
+
+	&__left {
+		display: flex;
+		align-items: center;
+	}
+
+	&__icon {
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		margin-right: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #e5ebf0;
+		transition: all 0.3s ease-in-out 0s;
+		&:hover {
+			color: $primary;
+		}
+	}
+
+	&__name {
+		font-weight: 600;
+		transition: all 0.3s ease-in-out 0s;
+		&:hover {
+			color: $primary;
+		}
+	}
+
+	&__major {
+		font-size: 14px;
+		transition: all 0.3s ease-in-out 0s;
+		&:hover {
+			color: $primary;
+		}
+	}
+
+	&__edit {
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+
+	&__content {
+		&.hide {
+			display: none;
+		}
+
+		background: #fafafa;
+		border-radius: 8px;
+		padding: 20px;
+	}
+
+	&__control {
+		margin-bottom: 15px;
+	}
+
+	&__label {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	&__actions {
+		text-align: right;
+	}
+
+	&__action {
+		margin-left: 20px;
+	}
+}

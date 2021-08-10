@@ -25,3 +25,23 @@ $color_texts: (
 ) !default;
 
 @include classes-ultils($color_texts);
+
+.btn {
+	&__main {
+		background-color: $primary;
+		padding: 10px 20px;
+		border-radius: 25px;
+		color: $white;
+		font-size: 16px;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $primary-dark;
+		}
+	}
+
+	&__link {
+		padding: 10px;
+	}
+}

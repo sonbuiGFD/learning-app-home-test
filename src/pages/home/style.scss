@@ -1,7 +1,53 @@
 @import 'styles/variables.scss';
 
-.designs {
+.profile {
 	&__page {
-		font-size: $font-size;
+		background: #fafafa;
+		padding: 50px 10px;
+	}
+
+	&__container {
+		background-color: $white;
+		border-radius: 8px;
+		max-width: 1000px;
+		padding: 20px;
+	}
+
+	&__title {
+		margin-bottom: 15px;
+		font-size: 24px;
+	}
+
+	&__info {
+		margin-bottom: 10px;
+	}
+
+	&__actions {
+		text-align: right;
+	}
+
+	&__add {
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+		color: $primary;
+		.icon {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			border: 1px dashed $primary;
+
+			border-radius: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 10px;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: $primary-dark;
+		}
 	}
 }

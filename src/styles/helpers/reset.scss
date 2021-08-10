@@ -1,34 +1,40 @@
 img,
 iframe,
 video {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 table {
-  width: 100%;
+	width: 100%;
+}
+
+a,
+button,
+input {
+	transition: all 0.3s ease-in-out 0s;
 }
 
 button {
-  background-color: transparent;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  line-height: inherit;
-  appearance: none;
+	background-color: transparent;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	color: inherit;
+	line-height: inherit;
+	appearance: none;
 }
 
 ::-webkit-selection {
-  background: $primary;
-  color: $white;
+	background: $primary;
+	color: $white;
 }
 
 ::-moz-selection {
-  background: $primary;
-  color: $white;
+	background: $primary;
+	color: $white;
 }
 
 ::selection {
-  background: $primary;
-  color: $white;
+	background: $primary;
+	color: $white;
 }
